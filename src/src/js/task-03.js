@@ -31,8 +31,6 @@ const htmlImages = images
   .join("");
 ulEl.insertAdjacentHTML("beforeend", htmlImages);
 
-const photos = document.querySelectorAll(".photo");
-
 ulEl.style.display = "flex";
 ulEl.style.flexDirection = "column";
 ulEl.style.gap = "30px";
